@@ -211,7 +211,7 @@ The Project is under an GPL-3.0, GPL-2.0, MIT, CC BY-SA 3.0, and CC0 License. Se
 
 - How to make perspective lines in GIMP, video: [Here](https://youtu.be/gIp5I0fXdlM).
 
-## Contributors
+## Contributors (PhotoGIMP)
 <a align="center" href="https://github.com/Diolinux/PhotoGIMP/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=Diolinux/PhotoGIMP" />
 </a>
