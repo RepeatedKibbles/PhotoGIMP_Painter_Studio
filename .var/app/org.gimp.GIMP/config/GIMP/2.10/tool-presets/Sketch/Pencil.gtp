@@ -1,0 +1,28 @@
+# GIMP tool preset file
+
+(icon-name "gimp-tool-paintbrush")
+(name "Pencil")
+(tool-options "GimpPaintOptions"
+    (tool "gimp-paintbrush-tool")
+    (opacity 0.25)
+    (brush "Pencil 01")
+    (dynamics "Pencil Generic")
+    (gradient "FG to BG (RGB)")
+    (palette "Color History")
+    (brush-size 50)
+    (application-mode incremental)
+    (use-jitter yes)
+    (dynamics-expanded yes)
+    (fade-length 140)
+    (fade-unit percent))
+(use-fg-bg yes)
+(use-opacity-paint-mode yes)
+(use-brush yes)
+(use-dynamics yes)
+(use-mypaint-brush no)
+(use-gradient no)
+(use-pattern no)
+(use-palette no)
+(use-font no)
+
+# end of GIMP tool preset file

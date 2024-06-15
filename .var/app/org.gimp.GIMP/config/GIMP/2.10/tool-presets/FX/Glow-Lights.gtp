@@ -1,0 +1,30 @@
+# GIMP tool preset file
+
+(icon-name "gimp-color-triangle")
+(name "Glow Lights (Addition !)")
+(tool-options "GimpPaintOptions"
+    (tool "gimp-paintbrush-tool")
+    (foreground (color-rgb 0.102075 0.18390100000000001 0.59431699999999998))
+    (opacity 0.40000000000000002)
+    (paint-mode addition-legacy)
+    (brush "2. Hardness 050")
+    (dynamics "Pressure Opacity")
+    (gradient "FG to Transparent")
+    (palette "Color History")
+    (brush-size 400)
+    (brush-hardness 0.5)
+    (application-mode incremental)
+    (jitter-amount 3.506494)
+    (fade-length 138)
+    (fade-unit percent))
+(use-fg-bg no)
+(use-opacity-paint-mode yes)
+(use-brush yes)
+(use-dynamics yes)
+(use-mypaint-brush no)
+(use-gradient no)
+(use-pattern no)
+(use-palette no)
+(use-font no)
+
+# end of GIMP tool preset file

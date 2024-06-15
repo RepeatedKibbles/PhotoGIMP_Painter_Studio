@@ -1,0 +1,25 @@
+# GIMP tool preset file
+
+(icon-name "gimp-tool-crop")
+(name "3×2 Landscape")
+(tool-options "GimpCropOptions"
+    (aspect-denominator 2)
+    (aspect-numerator 3)
+    (desired-fixed-size-height 400)
+    (desired-fixed-size-width 400)
+    (desired-fixed-width 400)
+    (fixed-rule-active yes)
+    (overridden-fixed-aspect yes)
+    (overridden-fixed-size yes)
+    (tool "gimp-crop-tool"))
+(use-fg-bg no)
+(use-opacity-paint-mode no)
+(use-brush no)
+(use-dynamics no)
+(use-mypaint-brush no)
+(use-gradient no)
+(use-pattern no)
+(use-palette no)
+(use-font no)
+
+# end of GIMP tool preset file

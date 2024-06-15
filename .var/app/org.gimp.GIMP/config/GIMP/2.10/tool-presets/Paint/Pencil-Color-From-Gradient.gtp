@@ -1,0 +1,25 @@
+# GIMP tool preset file
+
+(icon-name "gimp-tool-pencil")
+(name "Pencil (Color From Gradient)")
+(tool-options "GimpPencilOptions"
+    (tool "gimp-pencil-tool")
+    (brush "2. Hardness 050")
+    (dynamics "Color From Gradient")
+    (gradient "Default")
+    (palette "Default")
+    (brush-size 51.000000)
+    (brush-spacing 0.050000)
+    (brush-hardness 0.500000)
+    (dynamics-expanded yes)
+    (fade-repeat triangular))
+(use-fg-bg no)
+(use-brush no)
+(use-dynamics yes)
+(use-mypaint-brush no)
+(use-gradient no)
+(use-pattern no)
+(use-palette no)
+(use-font no)
+
+# end of GIMP tool preset file

@@ -1,0 +1,21 @@
+# GIMP tool preset file
+
+(icon-name "gimp-tool-crop")
+(name "16x9")
+(tool-options "GimpCropOptions"
+    (aspect-denominator 9)
+    (aspect-numerator 16)
+    (fixed-rule-active yes)
+    (overridden-fixed-aspect yes)
+    (tool "gimp-crop-tool"))
+(use-fg-bg no)
+(use-opacity-paint-mode no)
+(use-brush no)
+(use-dynamics no)
+(use-mypaint-brush no)
+(use-gradient no)
+(use-pattern no)
+(use-palette no)
+(use-font no)
+
+# end of GIMP tool preset file

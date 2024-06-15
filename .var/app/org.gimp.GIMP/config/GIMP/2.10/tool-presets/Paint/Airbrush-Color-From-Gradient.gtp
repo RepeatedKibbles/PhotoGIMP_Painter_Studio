@@ -1,0 +1,25 @@
+# GIMP tool preset file
+
+(icon-name "gimp-tool-airbrush")
+(name "Airbrush (Color From Gradient)")
+(tool-options "GimpAirbrushOptions"
+    (tool "gimp-airbrush-tool")
+    (brush "2. Hardness 050")
+    (dynamics "Color From Gradient")
+    (gradient "Default")
+    (palette "Default")
+    (brush-size 500.000000)
+    (brush-hardness 0.500000)
+    (dynamics-expanded yes)
+    (fade-repeat triangular)
+    (rate 30.000000))
+(use-fg-bg no)
+(use-brush no)
+(use-dynamics yes)
+(use-mypaint-brush no)
+(use-gradient no)
+(use-pattern no)
+(use-palette no)
+(use-font no)
+
+# end of GIMP tool preset file
