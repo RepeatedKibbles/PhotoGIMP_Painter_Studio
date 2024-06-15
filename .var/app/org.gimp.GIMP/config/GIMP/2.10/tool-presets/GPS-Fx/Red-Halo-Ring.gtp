@@ -1,0 +1,24 @@
+# GIMP tool preset file
+
+(icon-name "gimp-tool-gradient")
+(name "Red Halo Ring")
+(tool-options "GimpGradientOptions"
+    (tool "gimp-gradient-tool")
+    (foreground (color-rgb 0.6794724770642202 0.25238914373088689 0.25238914373088689))
+    (gradient "Flare Radial 102")
+    (brush-size 51)
+    (brush-spacing 0.050000000000000003)
+    (brush-hardness 0.5)
+    (offset 7.2999999999999998)
+    (gradient-type radial))
+(use-fg-bg no)
+(use-opacity-paint-mode yes)
+(use-brush no)
+(use-dynamics no)
+(use-mypaint-brush no)
+(use-gradient yes)
+(use-pattern no)
+(use-palette no)
+(use-font no)
+
+# end of GIMP tool preset file

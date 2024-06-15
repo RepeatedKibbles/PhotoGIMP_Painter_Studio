@@ -1,0 +1,28 @@
+# GIMP tool preset file
+
+(icon-name "gimp-tool-smudge")
+(name "Balls Smudge")
+(tool-options "GimpSmudgeOptions"
+    (tool "gimp-smudge-tool")
+    (opacity 0.90000000000000002)
+    (brush "Round Soft 090")
+    (dynamics "Balls Smudge")
+    (gradient "FG to Transparent")
+    (palette "Color History")
+    (brush-size 150)
+    (brush-spacing 0.06)
+    (brush-hardness 0.89999997615814209)
+    (use-jitter yes)
+    (jitter-amount 0.65000000000000002)
+    (rate 70))
+(use-fg-bg no)
+(use-opacity-paint-mode yes)
+(use-brush yes)
+(use-dynamics yes)
+(use-mypaint-brush no)
+(use-gradient no)
+(use-pattern no)
+(use-palette no)
+(use-font no)
+
+# end of GIMP tool preset file

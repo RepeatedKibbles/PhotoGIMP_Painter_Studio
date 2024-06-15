@@ -1,0 +1,29 @@
+# GIMP tool preset file
+
+(icon-name "gimp-tool-paintbrush")
+(name "Charcoal Soft Tilted")
+(tool-options "GimpPaintOptions"
+    (tool "gimp-paintbrush-tool")
+    (opacity 0.20000000000000001)
+    (brush "A-17 Knife eroded anim")
+    (dynamics "Charcoal Soft Tilted")
+    (gradient "Deep Sea")
+    (palette "Color History")
+    (brush-size 170)
+    (brush-spacing 0.10)
+    (brush-aspect-ratio 5)
+    (brush-angle 90)
+    (application-mode incremental)
+    (use-jitter yes)
+    (jitter-amount 0.050000000000000003))
+(use-fg-bg no)
+(use-opacity-paint-mode yes)
+(use-brush yes)
+(use-dynamics yes)
+(use-mypaint-brush no)
+(use-gradient no)
+(use-pattern no)
+(use-palette no)
+(use-font no)
+
+# end of GIMP tool preset file

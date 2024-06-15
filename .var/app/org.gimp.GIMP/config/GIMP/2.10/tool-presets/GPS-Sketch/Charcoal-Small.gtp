@@ -1,0 +1,25 @@
+# GIMP tool preset file
+
+(icon-name "gimp-tool-paintbrush")
+(name "Charcoal Small")
+(tool-options "GimpPaintOptions"
+    (tool "gimp-paintbrush-tool")
+    (opacity 0.66666700000000001)
+    (brush "A-17 Knife eroded anim")
+    (dynamics "Charcoal Small")
+    (gradient "Deep Sea")
+    (palette "Color History")
+    (brush-size 20)
+    (brush-spacing 0.10)
+    (application-mode incremental))
+(use-fg-bg no)
+(use-opacity-paint-mode yes)
+(use-brush yes)
+(use-dynamics yes)
+(use-mypaint-brush no)
+(use-gradient no)
+(use-pattern no)
+(use-palette no)
+(use-font no)
+
+# end of GIMP tool preset file

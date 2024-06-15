@@ -1,0 +1,24 @@
+# GIMP tool preset file
+
+(icon-name "gimp-tool-airbrush")
+(name "Airbrush Textured")
+(tool-options "GimpAirbrushOptions"
+    (tool "gimp-airbrush-tool")
+    (brush "A - 3 Smoke")
+    (dynamics "Airbrush Textured")
+    (gradient "FG to Transparent")
+    (palette "Color History")
+    (brush-size 200)
+    (brush-spacing 0.36)
+    (flow 40))
+(use-fg-bg no)
+(use-opacity-paint-mode yes)
+(use-brush yes)
+(use-dynamics yes)
+(use-mypaint-brush no)
+(use-gradient no)
+(use-pattern no)
+(use-palette no)
+(use-font no)
+
+# end of GIMP tool preset file

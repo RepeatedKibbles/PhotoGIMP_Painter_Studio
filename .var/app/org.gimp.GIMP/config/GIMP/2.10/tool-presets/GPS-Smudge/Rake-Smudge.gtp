@@ -1,0 +1,27 @@
+# GIMP tool preset file
+
+(icon-name "gimp-tool-smudge")
+(name "Rake Smudge")
+(tool-options "GimpSmudgeOptions"
+    (tool "gimp-smudge-tool")
+    (brush "Rake 4")
+    (dynamics "Rake Smudge")
+    (gradient "FG to Transparent")
+    (palette "Color History")
+    (brush-size 128)
+    (brush-angle 90.00000000000)
+    (brush-spacing 0.029999999999999999)
+    (fade-length 138)
+    (fade-unit percent)
+    (rate 80))
+(use-fg-bg no)
+(use-opacity-paint-mode yes)
+(use-brush yes)
+(use-dynamics yes)
+(use-mypaint-brush no)
+(use-gradient no)
+(use-pattern no)
+(use-palette no)
+(use-font no)
+
+# end of GIMP tool preset file

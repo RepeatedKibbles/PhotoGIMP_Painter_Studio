@@ -1,0 +1,29 @@
+# GIMP tool preset file
+
+(icon-name "gimp-tool-paintbrush")
+(name "Beam Light (Addition !)")
+(tool-options "GimpPaintOptions"
+    (tool "gimp-paintbrush-tool")
+    (foreground (color-rgb 0.046842000000000002 0.13958300000000001 0.184637))
+    (opacity 0.5)
+    (paint-mode addition-legacy)
+    (brush "A_Nice Sketch")
+    (dynamics "Beam Light (Addition !)")
+    (gradient "FG to Transparent")
+    (palette "Color History")
+    (brush-size 129.90000000000001)
+    (brush-spacing 0.10)
+    (application-mode incremental)
+    (fade-length 138)
+    (fade-unit percent))
+(use-fg-bg yes)
+(use-opacity-paint-mode yes)
+(use-brush yes)
+(use-dynamics yes)
+(use-mypaint-brush no)
+(use-gradient no)
+(use-pattern no)
+(use-palette no)
+(use-font no)
+
+# end of GIMP tool preset file

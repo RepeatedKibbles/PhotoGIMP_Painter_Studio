@@ -1,0 +1,22 @@
+# GIMP tool preset file
+
+(icon-name "gimp-tool-ink")
+(name "Sketch (Thin)")
+(tool-options "GimpInkOptions"
+    (tool "gimp-ink-tool")
+    (size 20)
+    (tilt-angle 25)
+    (vel-sensitivity 1)
+    (tilt-sensitivity 1)
+    (blob-angle -1.1071489999999999))
+(use-fg-bg no)
+(use-opacity-paint-mode yes)
+(use-brush no)
+(use-dynamics no)
+(use-mypaint-brush no)
+(use-gradient no)
+(use-pattern no)
+(use-palette no)
+(use-font no)
+
+# end of GIMP tool preset file

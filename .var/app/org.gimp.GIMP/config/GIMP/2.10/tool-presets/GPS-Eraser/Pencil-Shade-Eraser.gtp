@@ -1,0 +1,25 @@
+# GIMP tool preset file
+
+(icon-name "gimp-tool-eraser")
+(name "Pencil Shade Eraser")
+(tool-options "GimpEraserOptions"
+    (tool "gimp-eraser-tool")
+    (opacity 0.24099999999999999)
+    (paint-mode screen-legacy)
+    (brush "Z_study pencil 2H")
+    (dynamics "Pencil Shade Eraser")
+    (palette "Color History")
+    (brush-size 40)
+    (brush-spacing 0.05)
+    (application-mode incremental))
+(use-fg-bg no)
+(use-opacity-paint-mode yes)
+(use-brush yes)
+(use-dynamics yes)
+(use-mypaint-brush no)
+(use-gradient no)
+(use-pattern no)
+(use-palette no)
+(use-font no)
+
+# end of GIMP tool preset file

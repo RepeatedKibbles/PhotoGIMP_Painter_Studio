@@ -1,0 +1,28 @@
+# GIMP tool preset file
+
+(icon-name "gimp-tool-paintbrush")
+(name "Palette Knife")
+(tool-options "GimpPaintOptions"
+    (tool "gimp-paintbrush-tool")
+    (brush "Palette Knife Horiz")
+    (dynamics "Palette Knife")
+    (gradient "FG to Transparent")
+    (palette "Color History")
+    (brush-size 180)
+    (brush-spacing 0.20)
+    (brush-aspect-ratio 19.473684210526315)
+    (brush-hardness 0.94999998807907104)
+    (jitter-amount 0.34999999999999998)
+    (fade-length 138)
+    (fade-unit percent))
+(use-fg-bg no)
+(use-opacity-paint-mode yes)
+(use-brush yes)
+(use-dynamics yes)
+(use-mypaint-brush no)
+(use-gradient no)
+(use-pattern no)
+(use-palette no)
+(use-font no)
+
+# end of GIMP tool preset file

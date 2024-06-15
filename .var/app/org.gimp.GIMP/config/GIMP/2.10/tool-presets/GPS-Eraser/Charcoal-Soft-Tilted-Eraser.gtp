@@ -1,0 +1,24 @@
+# GIMP tool preset file
+
+(icon-name "gimp-tool-eraser")
+(name "Charcoal Soft Tilted Eraser")
+(tool-options "GimpEraserOptions"
+    (tool "gimp-eraser-tool")
+    (opacity 0.38100000000000001)
+    (brush "A-17 Knife eroded anim")
+    (dynamics "Charcoal Soft Tilted Eraser")
+    (palette "Color History")
+    (brush-size 170)
+    (brush-spacing 0.10)
+    (application-mode incremental))
+(use-fg-bg no)
+(use-opacity-paint-mode yes)
+(use-brush yes)
+(use-dynamics yes)
+(use-mypaint-brush no)
+(use-gradient no)
+(use-pattern no)
+(use-palette no)
+(use-font no)
+
+# end of GIMP tool preset file

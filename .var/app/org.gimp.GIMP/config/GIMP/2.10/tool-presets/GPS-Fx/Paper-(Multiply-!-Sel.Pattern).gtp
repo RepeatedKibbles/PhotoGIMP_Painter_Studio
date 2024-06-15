@@ -1,0 +1,23 @@
+# GIMP tool preset file
+
+(icon-name "gimp-tool-bucket-fill")
+(name "Paper (Multiply ! Sel.Pattern)")
+(tool-options "GimpBucketFillOptions"
+    (tool "gimp-bucket-fill-tool")
+    (foreground (color-rgb 0.12549019607843137 0.12549019607843137 0.12549019607843137))
+    (opacity 0.5)
+    (paint-mode multiply-legacy)
+    (pattern "Generic Paper 1")
+    (fill-mode pattern)
+    (sample-merged yes))
+(use-fg-bg no)
+(use-opacity-paint-mode yes)
+(use-brush no)
+(use-dynamics no)
+(use-mypaint-brush no)
+(use-gradient no)
+(use-pattern yes)
+(use-palette no)
+(use-font no)
+
+# end of GIMP tool preset file

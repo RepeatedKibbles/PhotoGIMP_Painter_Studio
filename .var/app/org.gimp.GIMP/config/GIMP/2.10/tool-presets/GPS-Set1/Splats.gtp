@@ -1,0 +1,23 @@
+# GIMP tool preset file
+
+(icon-name "gimp-tool-paintbrush")
+(name "Splats")
+(tool-options "GimpPaintOptions"
+    (tool "gimp-paintbrush-tool")
+    (brush "A-2 Splat")
+    (dynamics "Splats")
+    (gradient "FG to Transparent")
+    (palette "Color History")
+    (brush-size 200)
+    (brush-spacing 0.99))
+(use-fg-bg no)
+(use-opacity-paint-mode yes)
+(use-brush yes)
+(use-dynamics yes)
+(use-mypaint-brush no)
+(use-gradient no)
+(use-pattern no)
+(use-palette no)
+(use-font no)
+
+# end of GIMP tool preset file

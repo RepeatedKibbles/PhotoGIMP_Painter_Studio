@@ -1,0 +1,23 @@
+# GIMP tool preset file
+
+(icon-name "gimp-tool-ink")
+(name "Doodles")
+(tool-options "GimpInkOptions"
+    (tool "gimp-ink-tool")
+    (size 80)
+    (vel-sensitivity 0.51724099999999995)
+    (tilt-sensitivity 0.894737)
+    (blob-type square)
+    (blob-aspect 2.8278829999999999)
+    (blob-angle -0.98279399999999995))
+(use-fg-bg no)
+(use-opacity-paint-mode yes)
+(use-brush no)
+(use-dynamics no)
+(use-mypaint-brush no)
+(use-gradient no)
+(use-pattern no)
+(use-palette no)
+(use-font no)
+
+# end of GIMP tool preset file

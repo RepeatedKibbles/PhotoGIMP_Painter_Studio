@@ -1,0 +1,28 @@
+# GIMP tool preset file
+
+(icon-name "gimp-tool-paintbrush")
+(name "2B Pencil Grainy")
+(tool-options "GimpPaintOptions"
+    (tool "gimp-paintbrush-tool")
+    (opacity 0.80000000000000004)
+    (brush "Z_study pencil 2H")
+    (dynamics "2B Pencil Grainy")
+    (gradient "Deep Sea")
+    (palette "Color History")
+    (brush-size 40)
+    (brush-spacing 0.05)
+    (application-mode incremental)
+    (jitter-amount 0.34999999999999998)
+    (fade-length 138)
+    (fade-unit percent))
+(use-fg-bg no)
+(use-opacity-paint-mode yes)
+(use-brush yes)
+(use-dynamics yes)
+(use-mypaint-brush no)
+(use-gradient no)
+(use-pattern no)
+(use-palette no)
+(use-font no)
+
+# end of GIMP tool preset file

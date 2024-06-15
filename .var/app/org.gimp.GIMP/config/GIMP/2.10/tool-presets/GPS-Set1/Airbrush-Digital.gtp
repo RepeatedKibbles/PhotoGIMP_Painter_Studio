@@ -1,0 +1,25 @@
+# GIMP tool preset file
+
+(icon-name "gimp-tool-airbrush")
+(name "Airbrush Digital")
+(tool-options "GimpAirbrushOptions"
+    (tool "gimp-airbrush-tool")
+    (opacity 0.90000000000000002)
+    (brush "Soft Brush")
+    (dynamics "Airbrush Digital")
+    (gradient "FG to Transparent")
+    (palette "Color History")
+    (brush-size 400)
+    (brush-spacing 0.30)
+    (brush-hardness 0.72000002861022949))
+(use-fg-bg no)
+(use-opacity-paint-mode yes)
+(use-brush yes)
+(use-dynamics yes)
+(use-mypaint-brush no)
+(use-gradient no)
+(use-pattern no)
+(use-palette no)
+(use-font no)
+
+# end of GIMP tool preset file

@@ -1,0 +1,27 @@
+# GIMP tool preset file
+
+(icon-name "gimp-tool-paintbrush")
+(name "Rocks Aspect Ratio")
+(tool-options "GimpPaintOptions"
+    (tool "gimp-paintbrush-tool")
+    (brush "A-3 Rocks")
+    (dynamics "Rocks Aspect Ratio")
+    (gradient "FG to BG (RGB)")
+    (palette "Default")
+    (brush-size 400)
+    (brush-spacing 0.20)
+    (brush-aspect-ratio 13)
+    (jitter-amount 0.34999999999999998)
+    (fade-length 138)
+    (fade-unit percent))
+(use-fg-bg no)
+(use-opacity-paint-mode yes)
+(use-brush yes)
+(use-dynamics yes)
+(use-mypaint-brush no)
+(use-gradient no)
+(use-pattern no)
+(use-palette no)
+(use-font no)
+
+# end of GIMP tool preset file

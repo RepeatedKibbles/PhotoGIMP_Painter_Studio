@@ -1,0 +1,28 @@
+# GIMP tool preset file
+
+(icon-name "gimp-tool-smudge")
+(name "Grainy Blender")
+(tool-options "GimpSmudgeOptions"
+    (tool "gimp-smudge-tool")
+    (opacity 0.5)
+    (paint-mode multiply-legacy)
+    (brush "A-3 Crackled")
+    (dynamics "Grainy Blender")
+    (gradient "FG to Transparent")
+    (palette "Color History")
+    (brush-size 200)
+    (brush-spacing 0.20)
+    (jitter-amount 0.339806)
+    (brush-view-size 33)
+    (rate 60))
+(use-fg-bg no)
+(use-opacity-paint-mode yes)
+(use-brush yes)
+(use-dynamics yes)
+(use-mypaint-brush no)
+(use-gradient no)
+(use-pattern no)
+(use-palette no)
+(use-font no)
+
+# end of GIMP tool preset file

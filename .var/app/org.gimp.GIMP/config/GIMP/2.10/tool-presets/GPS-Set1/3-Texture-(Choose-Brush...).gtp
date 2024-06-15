@@ -1,0 +1,28 @@
+# GIMP tool preset file
+
+(icon-name "gimp-tool-desaturate")
+(name "3 Texture (Choose Brush...)")
+(tool-options "GimpPaintOptions"
+    (tool "gimp-paintbrush-tool")
+    (brush "T_Texture 1")
+    (dynamics "3 Texture (Choose Brush...)")
+    (gradient "FG to Transparent")
+    (palette "Color History")
+    (brush-size 400)
+    (brush-spacing 0.40)
+    (use-jitter yes)
+    (jitter-amount 0.5)
+    (fade-length 138)
+    (fade-unit percent)
+    (gradient-reverse yes))
+(use-fg-bg no)
+(use-opacity-paint-mode yes)
+(use-brush yes)
+(use-dynamics yes)
+(use-mypaint-brush no)
+(use-gradient no)
+(use-pattern no)
+(use-palette no)
+(use-font no)
+
+# end of GIMP tool preset file

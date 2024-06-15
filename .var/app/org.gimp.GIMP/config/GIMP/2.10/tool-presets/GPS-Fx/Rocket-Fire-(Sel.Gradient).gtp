@@ -1,0 +1,33 @@
+# GIMP tool preset file
+
+(icon-name "gimp-tool-paintbrush")
+(name "Rocket Fire (Sel.Gradient)")
+(tool-options "GimpPaintOptions"
+    (tool "gimp-paintbrush-tool")
+    (foreground (color-rgb 0.12549019607843137 0.12549019607843137 0.12549019607843137))
+    (opacity 0.40000000000000002)
+    (brush "Round  middle soft LS")
+    (dynamics "Rocket Fire (Sel.Gradient)")
+    (gradient "GPS Fire Life Span")
+    (palette "Color History")
+    (brush-size 206.41)
+    (brush-spacing 0.06)
+    (brush-hardness 0.5)
+    (application-mode incremental)
+    (use-jitter yes)
+    (jitter-amount 1)
+    (dynamics-expanded yes)
+    (fade-length 1000)
+    (fade-repeat truncate)
+    (gradient-reverse yes))
+(use-fg-bg no)
+(use-opacity-paint-mode yes)
+(use-brush yes)
+(use-dynamics yes)
+(use-mypaint-brush no)
+(use-gradient yes)
+(use-pattern no)
+(use-palette no)
+(use-font no)
+
+# end of GIMP tool preset file

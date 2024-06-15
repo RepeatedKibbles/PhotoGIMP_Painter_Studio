@@ -1,0 +1,26 @@
+# GIMP tool preset file
+
+(icon-name "gimp-tool-airbrush")
+(name "Desaturate Color (Saturation !)")
+(tool-options "GimpAirbrushOptions"
+    (tool "gimp-airbrush-tool")
+    (paint-mode hsv-saturation-legacy)
+    (brush "2. Hardness 050")
+    (dynamics "Desaturate Color (Saturation !)")
+    (gradient "GPS Fire Burning Cloud")
+    (palette "Color History")
+    (brush-size 200)
+    (brush-spacing 0.05)
+    (brush-hardness 0.5)
+    (flow 40))
+(use-fg-bg no)
+(use-opacity-paint-mode yes)
+(use-brush yes)
+(use-dynamics yes)
+(use-mypaint-brush no)
+(use-gradient no)
+(use-pattern no)
+(use-palette no)
+(use-font no)
+
+# end of GIMP tool preset file

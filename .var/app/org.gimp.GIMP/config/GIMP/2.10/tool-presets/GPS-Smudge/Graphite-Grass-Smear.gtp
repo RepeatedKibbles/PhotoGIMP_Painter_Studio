@@ -1,0 +1,27 @@
+# GIMP tool preset file
+
+(icon-name "gimp-tool-smudge")
+(name "Graphite Grass Smear")
+(tool-options "GimpSmudgeOptions"
+    (tool "gimp-smudge-tool")
+    (brush "D_Normal dust")
+    (dynamics "Graphite Grass Smear")
+    (gradient "FG to Transparent")
+    (palette "Color History")
+    (brush-size 120)
+    (brush-spacing 0.06)
+    (hard yes)
+    (use-jitter yes)
+    (jitter-amount 0.070422999999999999)
+    (rate 100))
+(use-fg-bg no)
+(use-opacity-paint-mode yes)
+(use-brush yes)
+(use-dynamics yes)
+(use-mypaint-brush no)
+(use-gradient no)
+(use-pattern no)
+(use-palette no)
+(use-font no)
+
+# end of GIMP tool preset file

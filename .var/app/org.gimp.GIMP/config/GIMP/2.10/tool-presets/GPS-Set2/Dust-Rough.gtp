@@ -1,0 +1,29 @@
+# GIMP tool preset file
+
+(icon-name "gimp-tool-desaturate")
+(name "Dust Rough")
+(tool-options "GimpPaintOptions"
+    (tool "gimp-paintbrush-tool")
+    (foreground (color-rgb 0.71272935779816515 0.34814602446483184 0.34814602446483184))
+    (brush "S_Splats 2")
+    (dynamics "Dust Rough")
+    (gradient "GPS Nature Pure greens")
+    (palette "Default")
+    (brush-size 250)
+    (brush-spacing 0.20)
+    (use-jitter yes)
+    (jitter-amount 0.5)
+    (fade-length 138)
+    (fade-unit percent)
+    (gradient-reverse yes))
+(use-fg-bg no)
+(use-opacity-paint-mode yes)
+(use-brush yes)
+(use-dynamics yes)
+(use-mypaint-brush no)
+(use-gradient no)
+(use-pattern no)
+(use-palette no)
+(use-font no)
+
+# end of GIMP tool preset file

@@ -1,0 +1,22 @@
+# GIMP tool preset file
+
+(icon-name "gimp-tool-gradient")
+(name "Radial Softlight")
+(tool-options "GimpGradientOptions"
+    (tool "gimp-gradient-tool")
+    (paint-mode softlight)
+    (gradient "FG to Transparent")
+    (brush-size 51)
+    (brush-spacing 0.01)
+    (gradient-type radial))
+(use-fg-bg no)
+(use-opacity-paint-mode yes)
+(use-brush no)
+(use-dynamics no)
+(use-mypaint-brush no)
+(use-gradient yes)
+(use-pattern no)
+(use-palette no)
+(use-font no)
+
+# end of GIMP tool preset file

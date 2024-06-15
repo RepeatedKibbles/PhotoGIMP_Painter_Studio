@@ -1,0 +1,30 @@
+# GIMP tool preset file
+
+(icon-name "gimp-tool-paintbrush")
+(name "Fire (HardLight ! Sel.Gradient)")
+(tool-options "GimpPaintOptions"
+    (tool "gimp-paintbrush-tool")
+    (opacity 0.90000000000000002)
+    (paint-mode hardlight-legacy)
+    (brush "C_Cloud 1")
+    (dynamics "Fire (Hard Light ! Sel. Gradient)")
+    (gradient "GPS Fire Burning Cloud")
+    (palette "Color History")
+    (brush-size 250)
+    (brush-spacing 0.12)
+    (application-mode incremental)
+    (jitter-amount 0)
+    (dynamics-expanded yes)
+    (fade-length 138)
+    (fade-unit percent))
+(use-fg-bg no)
+(use-opacity-paint-mode yes)
+(use-brush yes)
+(use-dynamics yes)
+(use-mypaint-brush no)
+(use-gradient yes)
+(use-pattern no)
+(use-palette no)
+(use-font no)
+
+# end of GIMP tool preset file

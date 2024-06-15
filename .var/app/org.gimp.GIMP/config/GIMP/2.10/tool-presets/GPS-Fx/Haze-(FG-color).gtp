@@ -1,0 +1,22 @@
+# GIMP tool preset file
+
+(icon-name "gimp-tool-gradient")
+(name "Haze (FG color)")
+(tool-options "GimpGradientOptions"
+    (tool "gimp-gradient-tool")
+    (opacity 0.466216)
+    (gradient "GPS Haze and Atmosphere")
+    (brush-size 51)
+    (brush-spacing 0.01)
+    (gradient-type bilinear))
+(use-fg-bg no)
+(use-opacity-paint-mode yes)
+(use-brush no)
+(use-dynamics no)
+(use-mypaint-brush no)
+(use-gradient yes)
+(use-pattern no)
+(use-palette no)
+(use-font no)
+
+# end of GIMP tool preset file

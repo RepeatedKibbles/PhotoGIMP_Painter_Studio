@@ -1,0 +1,27 @@
+# GIMP tool preset file
+
+(icon-name "gimp-tool-paintbrush")
+(name "2B Pencil Detail")
+(tool-options "GimpPaintOptions"
+    (tool "gimp-paintbrush-tool")
+    (brush "P_Graphite Black Grass")
+    (dynamics "2B Pencil Detail")
+    (gradient "Deep Sea")
+    (palette "Color History")
+    (brush-size 40)
+    (brush-spacing 0.10)
+    (application-mode incremental)
+    (jitter-amount 0.14999999999999999)
+    (fade-length 138)
+    (fade-unit percent))
+(use-fg-bg no)
+(use-opacity-paint-mode yes)
+(use-brush yes)
+(use-dynamics yes)
+(use-mypaint-brush no)
+(use-gradient no)
+(use-pattern no)
+(use-palette no)
+(use-font no)
+
+# end of GIMP tool preset file

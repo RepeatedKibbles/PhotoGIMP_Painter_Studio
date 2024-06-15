@@ -1,0 +1,26 @@
+# GIMP tool preset file
+
+(icon-name "gimp-tool-smudge")
+(name "Structure Smudge")
+(tool-options "GimpSmudgeOptions"
+    (tool "gimp-smudge-tool")
+    (opacity 0.95099999999999996)
+    (brush "Structure_03")
+    (dynamics "Structure Smudge")
+    (gradient "FG to Transparent")
+    (palette "Default")
+    (brush-size 346.27999999999997)
+    (brush-spacing 0.40)
+    (jitter-amount 0.339806)
+    (rate 90.200000000000003))
+(use-fg-bg no)
+(use-opacity-paint-mode yes)
+(use-brush yes)
+(use-dynamics yes)
+(use-mypaint-brush no)
+(use-gradient no)
+(use-pattern no)
+(use-palette no)
+(use-font no)
+
+# end of GIMP tool preset file

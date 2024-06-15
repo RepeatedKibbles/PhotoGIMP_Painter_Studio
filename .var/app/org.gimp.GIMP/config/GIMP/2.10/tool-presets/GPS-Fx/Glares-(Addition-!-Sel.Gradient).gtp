@@ -1,0 +1,33 @@
+# GIMP tool preset file
+
+(icon-name "gimp-tool-paintbrush")
+(name "Glares (Addition ! Sel.Gradient)")
+(tool-options "GimpPaintOptions"
+    (tool "gimp-paintbrush-tool")
+    (foreground (color-rgb 0.12549019607843137 0.12549019607843137 0.12549019607843137))
+    (paint-mode addition-legacy)
+    (brush "W_9spikes")
+    (dynamics "Glares (Addition ! Sel.Gradient)")
+    (gradient "GPS Fire Incandescent")
+    (palette "Color History")
+    (brush-size 200)
+    (brush-spacing 0.10)
+    (brush-hardness 0.56000000238418579)
+    (application-mode incremental)
+    (use-jitter yes)
+    (jitter-amount 2.9500000000000002)
+    (dynamics-expanded yes)
+    (fade-length 138)
+    (fade-unit percent)
+    (brush-view-size 35))
+(use-fg-bg no)
+(use-opacity-paint-mode yes)
+(use-brush yes)
+(use-dynamics yes)
+(use-mypaint-brush no)
+(use-gradient yes)
+(use-pattern no)
+(use-palette no)
+(use-font no)
+
+# end of GIMP tool preset file

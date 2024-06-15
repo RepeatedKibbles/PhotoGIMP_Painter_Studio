@@ -1,0 +1,27 @@
+# GIMP tool preset file
+
+(icon-name "gimp-tool-paintbrush")
+(name "Oil Brush")
+(tool-options "GimpPaintOptions"
+    (tool "gimp-paintbrush-tool")
+    (brush "O_Oils 1 GP")
+    (dynamics "Oil Brush")
+    (gradient "FG to Transparent")
+    (palette "Color History")
+    (brush-size 72.189999999999998)
+    (brush-spacing 0.04)
+    (jitter-amount 0.34999999999999998)
+    (fade-length 138)
+    (fade-unit percent)
+    (gradient-reverse yes))
+(use-fg-bg no)
+(use-opacity-paint-mode yes)
+(use-brush yes)
+(use-dynamics yes)
+(use-mypaint-brush no)
+(use-gradient no)
+(use-pattern no)
+(use-palette no)
+(use-font no)
+
+# end of GIMP tool preset file

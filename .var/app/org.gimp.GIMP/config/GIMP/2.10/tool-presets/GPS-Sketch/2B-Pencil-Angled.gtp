@@ -1,0 +1,29 @@
+# GIMP tool preset file
+
+(icon-name "gimp-tool-paintbrush")
+(name "2B Pencil Angled")
+(tool-options "GimpPaintOptions"
+    (tool "gimp-paintbrush-tool")
+    (foreground (color-rgb 0.27522935779816515 0.27522935779816515 0.27522935779816515))
+    (opacity 0.10000000000000001)
+    (brush "P_2B Pencil  Angled")
+    (dynamics "2B Pencil Angled")
+    (gradient "Deep Sea")
+    (palette "Color History")
+    (brush-size 40)
+    (brush-spacing 0.05)
+    (application-mode incremental)
+    (jitter-amount 0.50314499999999995)
+    (fade-length 138)
+    (fade-unit percent))
+(use-fg-bg no)
+(use-opacity-paint-mode yes)
+(use-brush yes)
+(use-dynamics yes)
+(use-mypaint-brush no)
+(use-gradient no)
+(use-pattern no)
+(use-palette no)
+(use-font no)
+
+# end of GIMP tool preset file

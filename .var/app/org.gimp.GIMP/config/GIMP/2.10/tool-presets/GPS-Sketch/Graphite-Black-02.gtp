@@ -1,0 +1,29 @@
+# GIMP tool preset file
+
+(icon-name "gimp-tool-paintbrush")
+(name "Graphite Black 02")
+(tool-options "GimpPaintOptions"
+    (tool "gimp-paintbrush-tool")
+    (opacity 0.84999999999999998)
+    (brush "P_Graphite Black Grass")
+    (dynamics "Graphite Black 02")
+    (gradient "Deep Sea")
+    (palette "Color History")
+    (brush-size 110)
+    (brush-spacing 0.10)
+    (application-mode incremental)
+    (use-jitter yes)
+    (jitter-amount 0)
+    (fade-length 138)
+    (fade-unit percent))
+(use-fg-bg no)
+(use-opacity-paint-mode yes)
+(use-brush yes)
+(use-dynamics yes)
+(use-mypaint-brush no)
+(use-gradient no)
+(use-pattern no)
+(use-palette no)
+(use-font no)
+
+# end of GIMP tool preset file

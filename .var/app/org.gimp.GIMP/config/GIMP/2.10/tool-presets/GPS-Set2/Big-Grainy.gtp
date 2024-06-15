@@ -1,0 +1,25 @@
+# GIMP tool preset file
+
+(icon-name "gimp-tool-paintbrush")
+(name "Big Grainy")
+(tool-options "GimpPaintOptions"
+    (tool "gimp-paintbrush-tool")
+    (foreground (color-rgb 0.71272935779816515 0.34814602446483184 0.34814602446483184))
+    (opacity 0.65000000000000002)
+    (brush "A-19 eroded round 2")
+    (dynamics "Big Grainy")
+    (gradient "GPS Nature Pure greens")
+    (palette "Default")
+    (brush-size 140)
+    (brush-spacing 0.45))
+(use-fg-bg no)
+(use-opacity-paint-mode yes)
+(use-brush yes)
+(use-dynamics yes)
+(use-mypaint-brush no)
+(use-gradient no)
+(use-pattern no)
+(use-palette no)
+(use-font no)
+
+# end of GIMP tool preset file
