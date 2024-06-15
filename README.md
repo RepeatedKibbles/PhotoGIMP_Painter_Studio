@@ -185,14 +185,14 @@ Open the Window menu: Dockable Dialogs -> Tool Presets, and you can see SLOS-GIM
 # License
 The Project is under an GPL-3.0, GPL-2.0, MIT, CC BY-SA 3.0, and CC0 License. See the LICENSE file for more information.
 
-- GPL:
+- **GNU General Public (GPL):**
 * PhotoGIMP (GPL-3.0)
 * gps-gimp-paint-studio (GPL-2.0)
 
-- MIT:
+- **Massachusetts Institute of Technology (MIT):**
 * SLOS-GIMPainter
 
-- CC:
+- **Creative Commons (CC):**
 * MyPaintBrushes-GIMP (CC0)
 * gps-gimp-paint-studio (License for Contents) (CC BY-SA 3.0)
 
