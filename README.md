@@ -55,6 +55,9 @@ Other brushes have also been debugged, such as “005 Calligraph” is a hard ed
 **MyPaint doesn't need these brushes**, it is just designed for GIMP 2.10.
 <br />And I accidentally deleted MyPaint-brushes “.conf” file when debugging…
 
+# Style:
+Orderly arrangement and clear classification.
+
 ## 📷 Screenshots
 
 ![PhotoGimp Screenshot - Editing Google Takeout](./screenshots/2020-06-22_12-06.png)
@@ -73,9 +76,6 @@ This package is all about flatpak, but it also contains "just files" that you ca
 1. First of all, you need to have the latest GIMP installed on your system [using Flatpak](https://flatpak.org/setup/)
 2. Install GIMP Flatpak through your AppCenter/Package Manager or terminal:
    ```flatpak install flathub org.gimp.GIMP```
-
-# Style:
-Orderly arrangement and clear classification.
 
 ### Install PhotoGIMP Painter Studio
 
