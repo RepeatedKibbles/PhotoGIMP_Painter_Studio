@@ -21,13 +21,6 @@ A patch for optimizing GIMP 2.10+ for Adobe Photoshop users, including features 
 
 ![PhotoGimp Diolinux Splash Art](./.var/app/org.gimp.GIMP/config/GIMP/2.10/splashes/photogimp-diolinux-splash.png)
 
-# Project Name
-The project name = `My Name Abbreviation` + `GIMP` + `Painter`
-
-- The word `Painter` to better explain the function of the project. GIMP is adjacent to the `P` in Painter, so the two `P` are merged.
-
-The name of the project is **SLOS-GIMPainter**
-
 # What is GIMP Paint Sudio (GPS)?
 
 GPS is a collection of brushes and accompanying tool presets. Tool presets are a simply saved tool options, highly useful feature of the GIMP.
@@ -39,12 +32,19 @@ You can learn more about GPS in the [WIki](https://code.google.com/archive/p/gps
 Thanks for using it! happy painting!
 [Ramón Miranda GPS owner](www.ramonmiranda.com)
 
+# Project Name
+The project name = `My Name Abbreviation` + `GIMP` + `Painter`
+
+- The word `Painter` to better explain the function of the project. GIMP is adjacent to the `P` in Painter, so the two `P` are merged.
+
+The name of the project is **SLOS-GIMPainter**
+
 # MyPaintBrushes-GIMP
 MyPaint-Brushes for GIMP 2.10.x
 
 ![img](https://raw.githubusercontent.com/SenlinOS/databox/master/MyPaint-Brushes-for-GIMP-2.10-By_SenlinOS.jpg)
 
-**I made these MyPaint-Brushes for GIMP**.
+**[I](https://github.com/SenlinOS) made these MyPaint-Brushes for GIMP**.
 
 **This brushes is not suitable for MyPaint**, such as “002 Frame Line” in MyPaint will “pen leaking” phenomenon.
 <br />In GIMP 2.10, hold down the Shift key “002 Frame Line” can draw a straight line.
