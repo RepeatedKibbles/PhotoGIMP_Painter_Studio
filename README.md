@@ -64,6 +64,9 @@ Orderly arrangement and clear classification.
 ![PhotoGimp Screenshot - Editing Google Takeout](./screenshots/2020-06-22_12-06.png)
 ![PhotoGimp Screenshot OSX](./screenshots/osx.png)
 
+![PhotoGimp Screenshot - Editing Google Takeout](./screenshots/2020-06-22_12-06.png)
+![PhotoGimp Screenshot OSX](./screenshots/osx.png)
+
 ## ⚙ How to Install (using Flatpak)
 
 This package is all about flatpak, but it also contains "just files" that you can use on any version of GIMP (.deb, .rpm, Snap, AppImage, Windows, macOS). Just check the location of the GIMP configuration files.
