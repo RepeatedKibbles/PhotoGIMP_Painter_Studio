@@ -1,43 +1,43 @@
-NOTE: Although the project is very functional as it is and you probably can use it with minor to no problems, it's important to notice that i'm note not able to implement new features or analyse bug reports for now.
-Other than that, enjoy PhotoGIMP Painter Studio! :)
+注意：虽然该项目本身功能非常强大，您可能可以毫无问题地使用它，但需要注意的是，我目前无法实现新功能或分析错误报告。
+除此之外，享受 PhotoGIMP Painter Studio！:)
 
 # 🎨 PhotoGIMP Painter Studio
 
 <img src="./.local/share/icons/hicolor/256x256/apps/photogimp.png" align="right" alt="PhotoGimp application icon" title="PhotoGimp application icon">
 
-A patch for optimizing GIMP 2.10+ for Adobe Photoshop users, including features like:
+为 Adob​​e Photoshop 用户优化 GIMP 2.10+ 的补丁，包括如下功能：
 
-* Tool organization to mimic the position of Adobe Photoshop;
-* New Python filters installed by default, such as "heal selection";
-* New Splash Screen
-* New default settings to maximize space on the canvas;
-* Shortcuts similar to the ones in Photoshop for Windows, following Adobe’s Documentation;
-* New icon and Name from custom .desktop file.
-* System Language is now used by default, you can still change in settings if you want.
-* Brushes are displayed as Icons. (Suitable for users of different languages)
-* Orderly arrangement and clear classification.
-* Choose a suitable Brush and replace the brush shape to get a new effect. (Avoid always creating new brushes)
-* SVG files (Paths) included with the project can be used with brushes to create effect lines.
+* 工具组织模仿Adobe Photoshop的位置；
+* 默认安装新的 Python 过滤器，例如“修复选择”；
+* 新的启动画面
+* 新的默认设置可以最大化画布上的空间；
+* 与 Windows 版 Photoshop 中的快捷方式类似，请参阅 Adob​​e 的文档；
+* 来自自定义 .desktop 文件的新图标和名称。
+* 现在默认使用系统语言，如果您愿意，您仍然可以在设置中进行更改。
+* 画笔以图标形式显示。（适合不同语言的用户）
+* 排列有序，分类清晰。
+* 选择合适的画笔并更换画笔形状以获得新的效果。（避免总是创建新的画笔）
+* 项目中包含的 SVG 文件（路径）可与画笔一起使用来创建效果线。
 
 ![PhotoGimp Diolinux Splash Art](./.var/app/org.gimp.GIMP/config/GIMP/2.10/splashes/photogimp-diolinux-splash.png)
 
-# What is GIMP Paint Studio (GPS)?
+# 什么是 GIMP Paint Studio (GPS)？
 
-GPS is a collection of brushes and accompanying tool presets. Tool presets are a simply saved tool options, highly useful feature of the GIMP.
+GPS 是画笔和配套工具预设的集合。工具预设是一种简单保存的工具选项，是 GIMP 非常有用的功能。
 
-The goal of GPS is to provide an adequate working environment for graphic designers and artists to begin to paint and feel comfortable with GIMP from their first use. Later the user will change these settings based on his own workflow preferences and understanding of GIMP.
+GPS 的目标是为平面设计师和艺术家提供适当的工作环境，让他们从第一次使用 GIMP 开始绘画并感到舒适。稍后，用户将根据自己的工作流程偏好和对 GIMP 的理解更改这些设置。
 
-You can learn more about GPS in the [WIki](https://code.google.com/archive/p/gps-gimp-paint-studio/)
+您可以在 [WIki](https://code.google.com/archive/p/gps-gimp-paint-studio/) 中了解有关 GPS 的更多信息
 
-Thanks for using it! happy painting!
-[Ramón Miranda GPS owner](www.ramonmiranda.com)
+谢谢您的使用！祝您绘画愉快！
+[Ramón Miranda GPS 所有者](www.ramonmiranda.com)
 
-# Project Name
-The project name = `My Name Abbreviation` + `GIMP` + `Painter`
+# 项目名
+项目名称 = `我的名字缩写` + `GIMP` + `Painter`
 
-- The word `Painter` to better explain the function of the project. GIMP is adjacent to the `P` in Painter, so the two `P` are merged.
+- `Painter` 这个词是为了更好地解释该项目的功能。GIMP 与 Painter 中的 `P` 相邻，因此将两个 `P` 合并在一起。
 
-The name of the project is **SLOS-GIMPainter**
+项目名称为**SLOS-GIMPainter**
 
 # MyPaintBrushes-GIMP
 MyPaint-Brushes for GIMP 2.10.x
@@ -46,14 +46,14 @@ MyPaint-Brushes for GIMP 2.10.x
 
 **[I](https://github.com/SenlinOS) made these MyPaint-Brushes for GIMP**.
 
-**This brushes is not suitable for MyPaint**, such as “002 Frame Line” in MyPaint will “pen leaking” phenomenon.
-<br />In GIMP 2.10, hold down the Shift key “002 Frame Line” can draw a straight line.
+**该笔刷不适用于MyPaint**，例如“002 Frame Line”在MyPaint中会出现“漏笔”现象。
+<br />在 GIMP 2.10 中，按住 Shift 键“002 Frame Line”可以绘制直线。
 
-Other brushes have also been debugged, such as “005 Calligraph” is a hard edge.
-<br />“006 Paint Brush” to draw at maximum pressure, the edges will not jagged.
+其他毛笔也调试过了，如“005书法”就是硬边的。
+<br />“006画笔”以最大压力绘制，边缘不会出现锯齿状。
 
-**MyPaint doesn't need these brushes**, it is just designed for GIMP 2.10.
-<br />And [I](https://github.com/SenlinOS) accidentally deleted MyPaint-brushes “.conf” file when debugging…
+**MyPaint 不需要这些画笔**，它只是为 GIMP 2.10 设计的。
+<br />而且我调试的时候不小心删除了MyPaint-brushes“.conf”文件……
 
 # Style:
 Orderly arrangement and clear classification.
