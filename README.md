@@ -117,8 +117,8 @@ If you just want the PhotoGIMP customization without changing the original GIMP 
 
 **NOTE:** Do not check the box to prevent changing the default setting of SLOS-GIMPainter.
 
-- I didn't install SLOS-GIMPainter by copying the corresponding directory to the GIMP-Profile-Folders. Because the Checkbox cannot be canceled. (maybe you will accidentally modify the default parameters)
-- My suggested method is to manually open the corresponding directory in the Project Folder by using the (Edit -> Preferences -> Folders...) of GIMP Menu.
+- [I](https://github.com/SenlinOS) didn't install SLOS-GIMPainter by copying the corresponding directory to the GIMP-Profile-Folders. Because the Checkbox cannot be canceled. (maybe you will accidentally modify the default parameters)
+- [My](https://github.com/SenlinOS) suggested method is to manually open the corresponding directory in the Project Folder by using the (Edit -> Preferences -> Folders...) of GIMP Menu.
 
 ## ⚙ How to Install (others)
 
