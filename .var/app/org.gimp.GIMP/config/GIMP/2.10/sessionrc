@@ -1,5 +1,5 @@
 # GIMP sessionrc
-#
+# 
 # This file takes session-specific info (that is info, you want to keep
 # between two GIMP sessions).  You are not supposed to edit it manually, but
 # of course you can do.  The sessionrc will be entirely rewritten every time
@@ -12,14 +12,32 @@
 (session-info "toplevel"
     (factory-entry "gimp-single-image-window")
     (position 0 0)
-    (size 1280 720)
+    (size 1920 991)
     (open-on-exit)
     (aux-info
-        (left-docks-width "52")
-        (right-docks-width "372")
+        (left-docks-width "298")
+        (right-docks-width "339")
         (maximized "yes"))
     (gimp-toolbox
-        (side left))
+        (side left)
+        (book
+            (current-page 0)
+            (dockable "gimp-tool-options"
+                (tab-style automatic)
+                (aux-info
+                    (show-button-bar "true")))
+            (dockable "gimp-device-status"
+                (tab-style automatic)
+                (aux-info
+                    (show-button-bar "true")))
+            (dockable "gimp-undo-history"
+                (tab-style automatic)
+                (aux-info
+                    (show-button-bar "true")))
+            (dockable "gimp-image-list"
+                (tab-style automatic)
+                (aux-info
+                    (show-button-bar "true")))))
     (gimp-dock
         (side right)
         (book
@@ -28,16 +46,24 @@
                 (tab-style automatic)
                 (aux-info
                     (current-page "GimpColorSelect")))
+            (dockable "gimp-brush-grid"
+                (tab-style automatic)
+                (aux-info
+                    (show-button-bar "true")))
+            (dockable "gimp-pattern-grid"
+                (tab-style automatic)
+                (aux-info
+                    (show-button-bar "true")))
             (dockable "gimp-font-list"
                 (tab-style automatic)
                 (aux-info
                     (show-button-bar "true")))
-            (dockable "gimp-tool-options"
+            (dockable "gimp-document-list"
                 (tab-style automatic)
                 (aux-info
                     (show-button-bar "true"))))
         (book
-            (position 293)
+            (position 454)
             (current-page 0)
             (dockable "gimp-layer-list"
                 (tab-style automatic)
