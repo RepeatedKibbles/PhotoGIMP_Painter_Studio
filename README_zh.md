@@ -20,6 +20,7 @@
 * 项目中包含的 SVG 文件（路径）可与画笔一起使用来创建效果线。
 
 ![PhotoGimp Diolinux Splash Art](./.var/app/org.gimp.GIMP/config/GIMP/2.10/splashes/photogimp-diolinux-splash.png)
+![PhotoGimp Diolinux Splash Art](./.var/app/org.gimp.GIMP/config/GIMP/2.10/splashes/GPS-2_0--splash-techno-dark.jpg)
 
 # 什么是 GIMP Paint Studio (GPS)？
 
@@ -44,7 +45,7 @@ MyPaint-Brushes for GIMP 2.10.x
 
 ![img](https://raw.githubusercontent.com/SenlinOS/databox/master/MyPaint-Brushes-for-GIMP-2.10-By_SenlinOS.jpg)
 
-**[I](https://github.com/SenlinOS) made these MyPaint-Brushes for GIMP**.
+**[我](https://github.com/SenlinOS)为 GIMP 制作了这些 MyPaint-Brushes**。
 
 **该笔刷不适用于MyPaint**，例如“002 Frame Line”在MyPaint中会出现“漏笔”现象。
 <br />在 GIMP 2.10 中，按住 Shift 键“002 Frame Line”可以绘制直线。
@@ -53,59 +54,59 @@ MyPaint-Brushes for GIMP 2.10.x
 <br />“006画笔”以最大压力绘制，边缘不会出现锯齿状。
 
 **MyPaint 不需要这些画笔**，它只是为 GIMP 2.10 设计的。
-<br />而且我调试的时候不小心删除了MyPaint-brushes“.conf”文件……
+<br />而且[我](https://github.com/SenlinOS)在调试时不小心删除了MyPaint-brushes“.conf”文件……
 
-# Style:
-Orderly arrangement and clear classification.
+# 风格：
+排列有序，分类清晰。
 
 ## 📷 Screenshots
 
 ![PhotoGimp Screenshot - Editing Google Takeout](./screenshots/2020-06-22_12-06.png)
 ![PhotoGimp Screenshot OSX](./screenshots/osx.png)
 
-## ⚙ How to Install (using Flatpak)
+## ⚙ 如何安装（使用 Flatpak）
 
-This package is all about flatpak, but it also contains "just files" that you can use on any version of GIMP (.deb, .rpm, Snap, AppImage, Windows, macOS). Just check the location of the GIMP configuration files.
+此软件包完全是关于 flatpak 的，但它还包含“仅文件”，您可以在任何版本的 GIMP（.deb、.rpm、Snap、AppImage、Windows、macOS）上使用它们。只需检查 GIMP 配置文件的位置即可。
 
-**Start and quit GIMP after you installed before you continue!**
+**安装后，启动并退出 GIMP，然后再继续！**
 
-### Prepare the Flatpak environment
+### 准备 Flatpak 环境
 
-*If you have previously had GIMP installed via .deb, .rpm, etc., please ensure you delete the directory `$HOME/.config/GIMP`, as this may cause conflicts with the Flatpak config files.*
+*如果您之前通过 .deb、.rpm 等安装了 GIMP，请确保删除目录“$HOME/.config/GIMP”，因为这可能会导致与 Flatpak 配置文件冲突。*
 
-1. First of all, you need to have the latest GIMP installed on your system [using Flatpak](https://flatpak.org/setup/)
-2. Install GIMP Flatpak through your AppCenter/Package Manager or terminal:
+1. 首先，你需要使[用 Flatpak](https://flatpak.org/setup/) 在系统上安装最新的 GIMP
+2. 通过您的 AppCenter/Package Manager 或终端安装 GIMP Flatpak：
    ```flatpak install flathub org.gimp.GIMP```
 
-### Install PhotoGIMP Painter Studio
+### 安装 PhotoGIMP Painter Studio
 
-Inside the .zip file from the [PhotoGIMP-Painter-Studio-master.zip](https://github.com/RepeatedKibbles/PhotoGIMP-Painter-Studio/archive/refs/heads/master.zip) you’ll find three folders (hidden on non-Windows systems as their names begin with a dot). All of these folders have to be extracted to your `$HOME` folder, overwriting everything if you already have the same files from an older installation.
+在 [PhotoGIMP-Painter-Studio-master.zip](https://github.com/RepeatedKibbles/PhotoGIMP-Painter-Studio/archive/refs/heads/master.zip) 的 .zip 文件中，您将找到三个文件夹（在非 Windows 系统上隐藏，因为它们的名称以点开头）。所有这些文件夹都必须解压到您的 `$HOME` 文件夹中，如果您已经拥有旧安装中的相同文件，则将覆盖所有内容。
 
-The file contains these directories:
+该文件包含以下目录：
 
-* `.icons` (which has a new PhotoGIMP icon)
-* `.local` (which contains the personalized .desktop file)
-* `.var` (which contains the flatpak patch customization for GIMP 2.10+)
+* `.icons` （有一个新的 PhotoGIMP 图标）
+* `.local` （其中包含个性化的 .desktop 文件）
+* `.var` （包含针对 GIMP 2.10+ 的 flatpak 补丁定制）
 
-If you just want the PhotoGIMP customization without changing the original GIMP icon and its name, just extract only the ```.var``` folder to your home directory.
+如果您只想定制 PhotoGIMP 而不更改原始 GIMP 图标及其名称，只需将“ .var”文件夹提取到您的主目录即可。
 
-- Edit -> Preferences ->(Folders -> MyPaint Brushes).
-- Click on the [Add a new folder] button to open the [SLOS_MPB] directory.
-- Restart GIMP.
+- 编辑 -> 首选项 ->（文件夹 -> MyPaint 画笔）。
+- 点击[添加新文件夹]按钮，打开[SLOS_MPB]目录。
+- 重新启动 GIMP。
 
-**Menu, Setting Installation:**
+**菜单、设置安装：**
 
-- Edit -> Preferences ->(Folders -> Brushes), (Folders -> Dynamics), (Folders -> Tool Presets)
-- Click the [Add New Folder] button to open the corresponding directories in the SLOS-GIMPainter folder respectively:
+- 编辑 -> 首选项 ->（文件夹 -> 画笔），（文件夹 -> 动态），（文件夹 -> 工具预设）
+- 点击【添加新文件夹】按钮，分别打开SLOS-GIMPainter文件夹中相应目录：
 
-	Example location: `□ /.../SLOS-GIMPainter/brushes`
+	示例位置： `□ /.../SLOS-GIMPainter/brushes`
 
-	Example location: `□ /.../SLOS-GIMPainter/dynamics`
+	示例位置： `□ /.../SLOS-GIMPainter/dynamics`
 
-	Example location: `□ /.../SLOS-GIMPainter/tool-presets`
+	示例位置： `□ /.../SLOS-GIMPainter/tool-presets`
 
-	**Click position 1, 2 and 3 in the screenshot to open the corresponding directory. Click OK to finish.**
-	<br />(/home/.../ is the demo location, subject to the location where you store SLOS-GIMPainter)
+	**点击截图中位置1、2、3，打开对应目录，点击确定即可完成。**
+	<br />(/home/.../ 是演示位置，以您存储SLOS-GIMPainter的位置为准）
 
 	![brushes](https://raw.githubusercontent.com/SenlinOS/databox/master/SLOS-GIMPainter-Installation/1-brushes.jpg)
 
@@ -113,18 +114,18 @@ If you just want the PhotoGIMP customization without changing the original GIMP 
 
 	![tool-presets](https://raw.githubusercontent.com/SenlinOS/databox/master/SLOS-GIMPainter-Installation/3-tool-presets.jpg)
 
-- Restart GIMP.
+- 重新启动 GIMP。
 
-**NOTE:** Do not check the box to prevent changing the default setting of SLOS-GIMPainter.
+**注意：** 不要选中该框以防止更改 SLOS-GIMPainter 的默认设置。
 
-- [I](https://github.com/SenlinOS) didn't install SLOS-GIMPainter by copying the corresponding directory to the GIMP-Profile-Folders. Because the Checkbox cannot be canceled. (maybe you will accidentally modify the default parameters)
-- [My](https://github.com/SenlinOS) suggested method is to manually open the corresponding directory in the Project Folder by using the (Edit -> Preferences -> Folders...) of GIMP Menu.
+- 我[没](https://github.com/SenlinOS)有通过将相应目录复制到 GIMP-Profile-Folders 来安装 SLOS-GIMPainter。因为无法取消复选框。（也许你会不小心修改了默认参数）
+- [我的](https://github.com/SenlinOS)建议的方法是使用 GIMP 菜单的（编辑 -> 首选项 -> 文件夹...）手动打开项目文件夹中的相应目录。
 
-## ⚙ How to Install (others)
+## ⚙ 如何安装（其他）
 
-Since it’s just files, the only thing you need to do is to copy all the files that reside on a particular folder from this package `/.var/app/org.gimp.GIMP/config/GIMP/2.10` to your GIMP’s configuration folder on each particular system, overriding the existent ones.
+因为它只是文件，所以您唯一需要做的就是将驻留在特定文件夹中的所有文件从该包 `/.var/app/org.gimp.GIMP/config/GIMP/2.10` 复制到 GIMP 的配置中每个特定系统上的文件夹，覆盖现有的文件夹。
 
-**Start and quit GIMP after you installed before you continue!**
+**安装后启动并退出 GIMP，然后再继续！**
 
 The new icon needs to be set manually.
 
