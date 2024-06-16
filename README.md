@@ -20,7 +20,7 @@ A patch for optimizing GIMP 2.10+ for Adobe Photoshop users, including features 
 * SVG files (Paths) included with the project can be used with brushes to create effect lines.
 
 ![PhotoGimp Diolinux Splash Art](./.var/app/org.gimp.GIMP/config/GIMP/2.10/splashes/photogimp-diolinux-splash.png)
-![GPS Techno Dark Splash Art](./.var/app/org.gimp.GIMP/config/GIMP/2.10/splashes/GPS-2_0--splash-techno-dark.jpg)
+                                                                                                                                                                                        ![GPS Techno Dark Splash Art](./.var/app/org.gimp.GIMP/config/GIMP/2.10/splashes/GPS-2_0--splash-techno-dark.jpg)
 
 # What is GIMP Paint Studio (GPS)?
 
@@ -60,9 +60,6 @@ Other brushes have also been debugged, such as “005 Calligraph” is a hard ed
 Orderly arrangement and clear classification.
 
 ## 📷 Screenshots
-
-![PhotoGimp Screenshot - Editing Google Takeout](./screenshots/2020-06-22_12-06.png)
-![PhotoGimp Screenshot OSX](./screenshots/osx.png)
 
 ![PhotoGimp Screenshot - Editing Google Takeout](./screenshots/2020-06-22_12-06.png)
 ![PhotoGimp Screenshot OSX](./screenshots/osx.png)
