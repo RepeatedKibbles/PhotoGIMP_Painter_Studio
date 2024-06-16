@@ -1,4 +1,4 @@
-NOTE: Although the project is very functional as it is and you probably can use it with minor to no problems, it's important to notice that i'm note not able to implement new features or analyse bug reports for now.
+NOTE: Although the project is very functional as it is and you probably can use it with minor to no problems, it's important to notice that I'm note not able to implement new features or analyse bug reports for now.
 Other than that, enjoy PhotoGIMP Painter Studio! :)
 
 # 🎨 PhotoGIMP Painter Studio
@@ -94,33 +94,6 @@ If you just want the PhotoGIMP customization without changing the original GIMP 
 - Click on the [Add a new folder] button to open the [SLOS_MPB] directory.
 - Restart GIMP.
 
-**Menu, Setting Installation:**
-
-- Edit -> Preferences ->(Folders -> Brushes), (Folders -> Dynamics), (Folders -> Tool Presets)
-- Click the [Add New Folder] button to open the corresponding directories in the SLOS-GIMPainter folder respectively:
-
-	Example location: `□ /.../SLOS-GIMPainter/brushes`
-
-	Example location: `□ /.../SLOS-GIMPainter/dynamics`
-
-	Example location: `□ /.../SLOS-GIMPainter/tool-presets`
-
-	**Click position 1, 2 and 3 in the screenshot to open the corresponding directory. Click OK to finish.**
-	<br />(/home/.../ is the demo location, subject to the location where you store SLOS-GIMPainter)
-
-	![brushes](https://raw.githubusercontent.com/SenlinOS/databox/master/SLOS-GIMPainter-Installation/1-brushes.jpg)
-
-	![dynamics](https://raw.githubusercontent.com/SenlinOS/databox/master/SLOS-GIMPainter-Installation/2-dynamics.jpg)
-
-	![tool-presets](https://raw.githubusercontent.com/SenlinOS/databox/master/SLOS-GIMPainter-Installation/3-tool-presets.jpg)
-
-- Restart GIMP.
-
-**NOTE:** Do not check the box to prevent changing the default setting of SLOS-GIMPainter.
-
-- [I](https://github.com/SenlinOS) didn't install SLOS-GIMPainter by copying the corresponding directory to the GIMP-Profile-Folders. Because the Checkbox cannot be canceled. (maybe you will accidentally modify the default parameters)
-- [My](https://github.com/SenlinOS) suggested method is to manually open the corresponding directory in the Project Folder by using the (Edit -> Preferences -> Folders...) of GIMP Menu.
-
 ## ⚙ How to Install (others)
 
 Since it’s just files, the only thing you need to do is to copy all the files that reside on a particular folder from this package `/.var/app/org.gimp.GIMP/config/GIMP/2.10` to your GIMP’s configuration folder on each particular system, overriding the existent ones.
@@ -178,6 +151,7 @@ Open the Window menu: Dockable Dialogs -> Tool Presets, and you can see SLOS-GIM
 * This project would not be possible without the amazing GIMP team.
 * The Photo in the new Splash is from [Isabella Mariana](https://www.pexels.com/pt-br/@isabella-mariana-1022505)
 * A BIG thanks to all Diolinux’s supporters on [Twitch](https://twitch.tv/Diolinux) and [YouTube](https://youtube.com/Diolinux).
+* [GIMP Resynthesizer Plugin Suite](https://www.logarithmic.net/pfh/resynthesizer) was originally developed by [Paul Harrison](https://logarithmic.net/pfh/) and now taken over [maintenance](https://github.com/bootchk/resynthesizer) by [Lloyd Konneker (also known as, bootchk)](https://github.com/bootchk)
 * [GIMP Paint Studio](https://code.google.com/archive/p/gps-gimp-paint-studio/) was originally developed by [Ramon Miranda](https://www.ramonmiranda.com/) and now [ported](https://www.deviantart.com/pkgam/art/GIMP-Paint-Studio-2-0-2-1-Port-to-GIMP-2-10-850663044) from GIMP 2.8 to 2.10+ by [PkGam](https://www.deviantart.com/pkgam)
 * [GIMP 2.10 Tool Preset Fixes](https://www.deviantart.com/pkgam/art/GIMP-2-10-Tool-Preset-Fixes-749387099) developed by [PkGam](https://www.deviantart.com/pkgam)
 * [SLOS-GIMPainter](https://github.com/SenlinOS/SLOS-GIMPainter) developed by [SenlinOS](https://github.com/SenlinOS)

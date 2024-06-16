@@ -94,97 +94,71 @@ MyPaint-Brushes for GIMP 2.10.x
 - 点击[添加新文件夹]按钮，打开[SLOS_MPB]目录。
 - 重新启动 GIMP。
 
-**菜单、设置安装：**
-
-- 编辑 -> 首选项 ->（文件夹 -> 画笔），（文件夹 -> 动态），（文件夹 -> 工具预设）
-- 点击【添加新文件夹】按钮，分别打开SLOS-GIMPainter文件夹中相应目录：
-
-	示例位置： `□ /.../SLOS-GIMPainter/brushes`
-
-	示例位置： `□ /.../SLOS-GIMPainter/dynamics`
-
-	示例位置： `□ /.../SLOS-GIMPainter/tool-presets`
-
-	**点击截图中位置1、2、3，打开对应目录，点击确定即可完成。**
-	<br />(/home/.../ 是演示位置，以您存储SLOS-GIMPainter的位置为准）
-
-	![brushes](https://raw.githubusercontent.com/SenlinOS/databox/master/SLOS-GIMPainter-Installation/1-brushes.jpg)
-
-	![dynamics](https://raw.githubusercontent.com/SenlinOS/databox/master/SLOS-GIMPainter-Installation/2-dynamics.jpg)
-
-	![tool-presets](https://raw.githubusercontent.com/SenlinOS/databox/master/SLOS-GIMPainter-Installation/3-tool-presets.jpg)
-
-- 重新启动 GIMP。
-
-**注意：** 不要选中该框以防止更改 SLOS-GIMPainter 的默认设置。
-
-- 我[没](https://github.com/SenlinOS)有通过将相应目录复制到 GIMP-Profile-Folders 来安装 SLOS-GIMPainter。因为无法取消复选框。（也许你会不小心修改了默认参数）
-- [我的](https://github.com/SenlinOS)建议的方法是使用 GIMP 菜单的（编辑 -> 首选项 -> 文件夹...）手动打开项目文件夹中的相应目录。
-
 ## ⚙ 如何安装（其他）
 
 因为它只是文件，所以您唯一需要做的就是将驻留在特定文件夹中的所有文件从该包 `/.var/app/org.gimp.GIMP/config/GIMP/2.10` 复制到 GIMP 的配置中每个特定系统上的文件夹，覆盖现有的文件夹。
 
 **安装后启动并退出 GIMP，然后再继续！**
 
-The new icon needs to be set manually.
+新图标需要手动设置。
 
-### Ubuntu Snap
+### 乌班图快照
 
-Configuration folder: `$HOME/snap/gimp/47/.config/GIMP/2.10/`
+配置文件夹：`$HOME/snap/gimp/47/.config/GIMP/2.10/`
 
 ### Other Linux or Unix(-like) systems (.deb, .rpm, etc.)
 
-Configuration folder: `$HOME/.config/GIMP/2.10/`
+配置文件夹：`$HOME/.config/GIMP/2.10/`
 
 ### macOS
 
-Configuration folder: `"$HOME/Library/Application Support/GIMP/2.10/"`
+配置文件夹：`"$HOME/Library/Application Support/GIMP/2.10/"`
 
-* [Video Tutorial by Davies Media Design on macOS](https://youtu.be/5nXhtaGQs9U)
+* [macOS 上 Davies Media Design 的视频教程](https://youtu.be/5nXhtaGQs9U)
 
-### Mac OS Easy Installer (made by: [@MatthijsKamstra](https://github.com/MatthijsKamstra))
+### Mac 操作系统简易安装程序 (由制成：[@MatthijsKamstra](https://github.com/MatthijsKamstra))
 
-> Gimp needs to be installed ([brew](https://formulae.brew.sh/cask/gimp) or [otherwise](https://www.gimp.org/downloads/))
+> 需要安装 Gimp（[brew](https://formulae.brew.sh/cask/gimp) 或[其他](https://www.gimp.org/downloads/)）
 
-##### Run bash how to
+##### 运行 bash 如何
 
-you can [down](https://raw.githubusercontent.com/MatthijsKamstra/Mac-setup/master/install/photogimp_osx.sh) and run the bash script:
+你可以[下](https://raw.githubusercontent.com/MatthijsKamstra/Mac-setup/master/install/photogimp_osx.sh)载并运行 bash 脚本：
 
 ```bash
 cd /path/to/download/folder
 sh photogimp_osx.sh
 ```
 
-### Windows
+### 视窗
 
-* Download the file [PhotoGIMP-Painter-Studio-master.zip](https://github.com/RepeatedKibbles/PhotoGIMP-Painter-Studio/archive/refs/heads/master.zip)
-* Access the path `.var\app\org.gimp.GIMP\config\GIMP\2.10` from the ZIP, copy the files to the path `%APPDATA%\GIMP\2.10`
-* [Video Tutorial by Davies Media Design on Windows](https://youtu.be/57DNUsf4A-0)
+* 下载文件 [PhotoGIMP-Painter-Studio-master.zip](https://github.com/RepeatedKibbles/PhotoGIMP-Painter-Studio/archive/refs/heads/master.zip)
+* 访问路径 `.var\app\org.gimp.GIMP\config\GIMP\2.10` 从 ZIP 中，将文件复制到路径 `%APPDATA%\GIMP\2.10`
+* [Windows 上 Davies Media Design 的视频教程](https://youtu.be/57DNUsf4A-0)
 
-# Show Dialog
-Open the Window menu: Dockable Dialogs -> Tool Presets, and you can see SLOS-GIMPainter.
+# 显示对话框
+打开窗口菜单：Dockable Dialogs -> Tool Presets，可以看到SLOS-GIMPainter。
 
-- Click the small triangle button on the upper right of the Tool Presets dialog, and click to `View as Grid`.
-- Click the small triangle button on the upper right of the Tool Presets dialog to `Preview Size` and select the `Large`.
-- Select the `SLOS` tab at the top of Tool Presets dialog to hide the built-in presets.
+- 单击“工具预设”对话框右上角的小三角形按钮，然后单击“以网格查看”。
+- 单击“工具预设”对话框右上角的小三角形按钮“预览大小”，然后选择“大”。
+- 选择“工具预设”对话框顶部的“SLOS”选项卡可隐藏内置预设。
 
-	**After setting, in the menu, Edit -> Preferences -> Interface(Window Management), save the settings as shown in the screenshot, and click OK to finish.**
+	**设置完成后，在菜单“编辑”->“首选项”->“界面（窗口管理）”中，保存如图所示的设置，然后单击“确定”完成。**
 
 	![(Window Management](https://raw.githubusercontent.com/SenlinOS/databox/master/SLOS-GIMPainter-Installation/wmment.jpg)
 
-## Credits
+## 制作人员
 
-* This project would not be possible without the amazing GIMP team.
-* The Photo in the new Splash is from [Isabella Mariana](https://www.pexels.com/pt-br/@isabella-mariana-1022505)
-* A BIG thanks to all Diolinux’s supporters on [Twitch](https://twitch.tv/Diolinux) and [YouTube](https://youtube.com/Diolinux).
+* 如果没有出色的 GIMP 团队，这个项目就不可能实现。
+* 新 Splash 中的照片来自 [Isabella Mariana](https://www.pexels.com/pt-br/@isabella-mariana-1022505)
+* 非常感谢 [Twitch](https://twitch.tv/Diolinux) 和 [YouTube](https://youtube.com/Diolinux) 上所有 Diolinux 的支持者。
+* [GIMP Resynthesizer Plugin Suite](https://www.logarithmic.net/pfh/resynthesizer) 最初由 [Paul Harrison](https://logarithmic.net/pfh/) 开发，现在接管[维护](https ://github.com/bootchk/resynthesizer）作者：[Lloyd Konneker（也称为 bootchk）](https://github.com/bootchk)
 * [GIMP Paint Studio](https://code.google.com/archive/p/gps-gimp-paint-studio/) was originally developed by [Ramon Miranda](https://www.ramonmiranda.com/) and now [ported](https://www.deviantart.com/pkgam/art/GIMP-Paint-Studio-2-0-2-1-Port-to-GIMP-2-10-850663044) from GIMP 2.8 to 2.10+ by [PkGam](https://www.deviantart.com/pkgam)
 * [GIMP 2.10 Tool Preset Fixes](https://www.deviantart.com/pkgam/art/GIMP-2-10-Tool-Preset-Fixes-749387099) developed by [PkGam](https://www.deviantart.com/pkgam)
 * [SLOS-GIMPainter](https://github.com/SenlinOS/SLOS-GIMPainter) developed by [SenlinOS](https://github.com/SenlinOS)
 * [MyPaintBrushes-GIMP](https://github.com/SenlinOS/MyPaintBrushes-GIMP) developed by [SenlinOS](https://github.com/SenlinOS)
 
-# License
-The Project is under an GPL-3.0, GPL-2.0, MIT, CC BY-SA 3.0, and CC0 License. See the LICENSE file for more information.
+# 许可证
+该项目遵循 GPL-3.0、GPL-2.0、MIT、CC BY-SA 3.0 和 CC0 许可证。有关详细信息，请参阅许可证文件。
 
 **- GNU General Public (GPL):**
 * gps-gimp-paint-studio ([GPL-2.0](https://github.com/RepeatedKibbles/PhotoGIMP-Painter-Studio/tree/master?tab=License-1-ov-file#:~:text=of%20the%20License.%0A%0A%20%20%20%20%2D%2D%2D-,License_gpl%2D2.0,-%3A%0A%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20GNU%20GENERAL%20PUBLIC))
@@ -201,21 +175,25 @@ The Project is under an GPL-3.0, GPL-2.0, MIT, CC BY-SA 3.0, and CC0 License. Se
 
 ![Vimg](https://raw.githubusercontent.com/SenlinOS/databox/master/video-demo-img.jpg)
 
-**Text Description:**
+**关于详细的讲解，请看[我的](https://github.com/SenlinOS)视频演示：**
+<br />(无声 / 字幕)
 
-- For Line Art, please check the text description: [Here](https://github.com/SenlinOS/databox/blob/master/For-Line-Art_SLOS-GIMPainter.md).
-- Manually save temporary presets, the text+video: [Here](https://github.com/SenlinOS/databox/blob/master/manually-save-temporary-presets.md).
+[在B站的演示视频合集](https://space.bilibili.com/14824534/channel/seriesdetail?sid=1169812&ctype=0)。
 
-**Other Tips:**
+对于线艺术，请查看文字说明：[这里](https://github.com/SenlinOS/databox/blob/master/For-Line-Art_SLOS-GIMPainter.md)。
 
-- GNU/Linux(X11) software becomes tracing paper, video: [Here](https://youtu.be/ArHPMmIMsq8).
+手动保存临时预设：[这里](https://senlinos.github.io/post/manually-save-temporary-presets/) 和 [这里](https://t.bilibili.com/519640070146405433?tab=2)。
 
-- How to make perspective lines in GIMP, video: [Here](https://youtu.be/gIp5I0fXdlM).
+**其他技巧：**
 
-## Contributors (PhotoGIMP)
+- GNU/Linux(X11)中将软件变成描图纸：[我的B站视频](https://www.bilibili.com/video/BV18R4y1j7g6)。
+
+- GIMP中怎样制作透视线：[我的B站视频](https://www.bilibili.com/video/BV1AS4y1V7AB)。
+
+## 贡献者 (PhotoGIMP)
 <a align="center" href="https://github.com/Diolinux/PhotoGIMP/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=Diolinux/PhotoGIMP" />
 </a>
 
-## Patch Notes
+## 补丁说明
 -  [Veja as Notas de Lançamento em Português](https://diolinux.com.br/2020/06/photogimp-2020.html)
