@@ -1,4 +1,4 @@
-NOTE: Although the project is very functional as it is and you probably can use it with minor to no problems, it's important to notice that I'm note not able to implement new features or analyse bug reports for now.
+NOTE: Although the project is very functional as it is and you probably can use it with minor to no problems, it's important to notice that [I'm](https://github.com/Diolinux/PhotoGIMP) note not able to implement new features or analyze bug reports for now.
 Other than that, enjoy PhotoGIMP Painter Studio! :)
 
 # 🎨 PhotoGIMP Painter Studio

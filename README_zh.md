@@ -1,4 +1,4 @@
-注意：虽然该项目本身功能非常强大，您可能可以毫无问题地使用它，但需要注意的是，我目前无法实现新功能或分析错误报告。
+注意：虽然该项目本身功能非常强大，您可能可以毫无问题地使用它，但需要注意的是，[我](https://github.com/Diolinux/PhotoGIMP)目前无法实现新功能或分析错误报告。
 除此之外，享受 PhotoGIMP Painter Studio！:)
 
 # 🎨 PhotoGIMP Painter Studio
@@ -151,23 +151,23 @@ sh photogimp_osx.sh
 * 如果没有出色的 GIMP 团队，这个项目就不可能实现。
 * 新 Splash 中的照片来自 [Isabella Mariana](https://www.pexels.com/pt-br/@isabella-mariana-1022505)
 * 非常感谢 [Twitch](https://twitch.tv/Diolinux) 和 [YouTube](https://youtube.com/Diolinux) 上所有 Diolinux 的支持者。
-* [GIMP Resynthesizer Plugin Suite](https://www.logarithmic.net/pfh/resynthesizer) 最初由 [Paul Harrison](https://logarithmic.net/pfh/) 开发，现在接管[维护](https ://github.com/bootchk/resynthesizer）作者：[Lloyd Konneker（也称为 bootchk）](https://github.com/bootchk)
-* [GIMP Paint Studio](https://code.google.com/archive/p/gps-gimp-paint-studio/) was originally developed by [Ramon Miranda](https://www.ramonmiranda.com/) and now [ported](https://www.deviantart.com/pkgam/art/GIMP-Paint-Studio-2-0-2-1-Port-to-GIMP-2-10-850663044) from GIMP 2.8 to 2.10+ by [PkGam](https://www.deviantart.com/pkgam)
-* [GIMP 2.10 Tool Preset Fixes](https://www.deviantart.com/pkgam/art/GIMP-2-10-Tool-Preset-Fixes-749387099) developed by [PkGam](https://www.deviantart.com/pkgam)
-* [SLOS-GIMPainter](https://github.com/SenlinOS/SLOS-GIMPainter) developed by [SenlinOS](https://github.com/SenlinOS)
-* [MyPaintBrushes-GIMP](https://github.com/SenlinOS/MyPaintBrushes-GIMP) developed by [SenlinOS](https://github.com/SenlinOS)
+* [GIMP Resynthesizer 插件套件](https://www.logarithmic.net/pfh/resynthesizer)最初由 [Paul Harrison](https://logarithmic.net/pfh/) 开发，现在由 [Lloyd Konneker（也称为 bootchk)](https://github.com/bootchk) [负责维护](https://github.com/bootchk/resynthesizer)
+* [GIMP Paint Studio](https://code.google.com/archive/p/gps-gimp-paint-studio/) 最初由 [Ramon Miranda](https://www.ramonmiranda.com/) 开发，现在由 [PkGam](https://www.deviantart.com/pkgam) 从 GIMP 2.8 [移植](https://www.deviantart.com/pkgam/art/GIMP-Paint-Studio-2-0-2-1-Port-to-GIMP-2-10-850663044)到 2.10+
+* [PkGam](https://www.deviantart.com/pkgam) 开发的 [GIMP 2.10 工具预设修复](https://www.deviantart.com/pkgam/art/GIMP-2-10-Tool-Preset-Fixes-749387099)
+* [SenlinOS](https://github.com/SenlinOS)开发的[SLOS-GIMPainter](https://github.com/SenlinOS/SLOS-GIMPainter)
+* [MyPaintBrushes-GIMP](https://github.com/SenlinOS/MyPaintBrushes-GIMP)由[SenlinOS](https://github.com/SenlinOS)开发
 
 # 许可证
 该项目遵循 GPL-3.0、GPL-2.0、MIT、CC BY-SA 3.0 和 CC0 许可证。有关详细信息，请参阅许可证文件。
 
-**- GNU General Public (GPL):**
+**- GNU 通用公共许可证 (GPL):**
 * gps-gimp-paint-studio ([GPL-2.0](https://github.com/RepeatedKibbles/PhotoGIMP-Painter-Studio/tree/master?tab=License-1-ov-file#:~:text=of%20the%20License.%0A%0A%20%20%20%20%2D%2D%2D-,License_gpl%2D2.0,-%3A%0A%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20GNU%20GENERAL%20PUBLIC))
 * PhotoGIMP ([GPL-3.0](https://github.com/RepeatedKibbles/PhotoGIMP-Painter-Studio/tree/master?tab=License-1-ov-file#:~:text=%2D%2D%2D-,PhotoGIMP,-%3A%0A%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20GNU%20GENERAL%20PUBLIC))
 
-**- Massachusetts Institute of Technology (MIT):**
+**- 麻省理工学院 (MIT):**
 * [SLOS-GIMPainter](https://github.com/RepeatedKibbles/PhotoGIMP-Painter-Studio/tree/master?tab=License-1-ov-file#:~:text=lgpl.html%3E.%0A%0A%2D%2D%2D-,SLOS%2DGIMPainter,-%3A%0A%0AMIT%20License%0A%0ACopyright)
 
-**- Creative Commons (CC):**
+**- 知识共享 (CC):**
 * MyPaintBrushes-GIMP ([CC0](https://github.com/RepeatedKibbles/PhotoGIMP-Painter-Studio/tree/master?tab=License-1-ov-file#:~:text=of%20this%20License.%0A%0A%2D%2D%2D-,MyPaintBrushes%2DGIMP,-%3A%0A%0AGIMP%202.10%20%E5%8F%91%E5%B8%83))
 * gps-gimp-paint-studio ([CC BY-SA 3.0 (License for Contents )](https://github.com/RepeatedKibbles/PhotoGIMP-Painter-Studio/tree/master?tab=License-1-ov-file#:~:text=License%20for%20Contents%3A%0A%0ACC%20BY%2DSA%203.0))
 
