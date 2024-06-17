@@ -1,4 +1,4 @@
-注意：虽然该项目本身功能非常强大，您可能可以毫无问题地使用它，但需要注意的是，[我](https://github.com/Diolinux/PhotoGIMP)目前无法实现新功能或分析错误报告。
+注意：虽然该项目本身功能非常强大，您可能可以毫无问题地使用它，但需要注意的是，[我](https://github.com/Diolinux)目前无法实现新功能或分析错误报告。
 除此之外，享受 PhotoGIMP Painter Studio！:)
 
 # 🎨 PhotoGIMP Painter Studio
