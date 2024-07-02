@@ -169,7 +169,7 @@ sh photogimp_osx.sh
 
 **- 知识共享 (CC):**
 * MyPaintBrushes-GIMP ([CC0](https://github.com/RepeatedKibbles/PhotoGIMP-Painter-Studio/tree/master?tab=CC0-1.0-1-ov-file))
-* gps-gimp-paint-studio ([CC BY-SA 3.0 (License for Contents )](https://github.com/RepeatedKibbles/PhotoGIMP-Painter-Studio/tree/master?tab=License-2-ov-file))
+* gps-gimp-paint-studio ([CC BY-SA 3.0 (License for Contents)](https://github.com/RepeatedKibbles/PhotoGIMP-Painter-Studio/tree/master?tab=License-2-ov-file))
 
 ---
 
